@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAB-SA Solar Company</title>
+    <link rel="stylesheet" href="more.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul class="nav-bar">
+            <li><a href="homepage.html" class="nav-button">Home</a></li>
+            <li><a href="aboutus.html" class="nav-button">About Us</a></li>
+            <li><a href="contactus.html" class="nav-button">Contact Us</a></li>
+            <li><a href="gallery.html" class="nav-button">Gallery</a></li>
+            <li><a href="game.html" class="nav-button">Game</a></li>
+            <li><a href="newsandservices.html" class="nav-button">Services</a></li>
+            <li><a href="more.html" class="nav-button">More</a></li>
+        </ul>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search...">
+    </nav>
+
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Solar Panel Visualization Tool -->
+    <section id="solar-visualization">
+        <h2>Visualize Solar Panels on Your Roof</h2>
+        <input type="file" id="upload-photo" class="upload-photo" accept="image/*">
+        <div id="upload-container">
+            <img id="roof-photo" src="" alt="Upload your roof photo">
+            <div id="panel-overlay"></div>
+        </div>
+        <button id="add-panel">Add Solar Panel</button>
+    </section>
+
+    <!-- Interactive FAQ Section with Chatbot -->
+    <section id="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <input type="text" id="faq-search" class="faq-search" placeholder="Search FAQs...">
+        <div id="faq-list">
+            <div class="faq-item">
+                <h3>What is solar energy?</h3>
+                <p>Solar energy is the energy from the sun that is converted into thermal or electrical energy.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are the benefits of solar energy?</h3>
+                <p>Solar energy reduces electricity bills, is environmentally friendly, and provides energy independence.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How much does solar installation cost in South Africa (in Rands)?</h3>
+                <p>The cost of solar installation in South Africa can range from R80,000 to R150,000 depending on the system size and other factors.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How long does a solar panel system last?</h3>
+                <p>Solar panels typically last between 25 to 30 years with minimal degradation in performance over time.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Will solar panels work during loadshedding?</h3>
+                <p>Yes, solar panels will generate electricity during loadshedding, but you will need a battery storage system to use the electricity when the grid is down.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Dashboard for Solar Energy Production -->
+    <section id="dashboard-section">
+        <h2>Live Solar Energy Dashboard</h2>
+        <div id="energy-stats">
+            <p>Current Production: <span id="current-production">0 kWh</span></p>
+            <p>Total Savings: <span id="total-savings">R0</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/UsoFsWb3X8HdDLxw/?mibextid=LQQJ4d" target="_blank" class="social-icon facebook-icon"></a>
+                <a href="https://www.instagram.com/tabsaprojects?igsh=MXN0cWt4eW9hMzc0dA==" target="_blank" class="social-icon instagram-icon"></a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Tab-SA Projects. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="more.js"></script>
+</body>
+</html>
+
+
+
+
+
